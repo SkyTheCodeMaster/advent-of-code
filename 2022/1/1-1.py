@@ -15,5 +15,4 @@ elves.sort(reverse=True)
 
 print(elves)
 
-with open("1/output.txt","w") as f:
-  f.write(str(elves[0]))
+print(elves[0])

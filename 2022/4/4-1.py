@@ -34,5 +34,4 @@ for pair in data.splitlines():
     total += 1
   print(total)
 
-with open("4/output.txt","w") as f:
-  f.write(str(total))
+print(total)

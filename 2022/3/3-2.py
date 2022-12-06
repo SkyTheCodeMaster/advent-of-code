@@ -27,5 +27,4 @@ for match in re.finditer("^(.*)\n(.*)\n(.*)",data,re.MULTILINE):
   same = findSame(a,b,c)
   totalPriority += priority(same)
 
-with open("3/output.txt","w") as f:
-  f.write(str(totalPriority))
+print(totalPriority)

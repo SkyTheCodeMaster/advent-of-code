@@ -56,5 +56,4 @@ for line in data.splitlines():
   op,me = line.split()
   score += rps(me,op)
 
-with open("2/output.txt","w") as f:
-  f.write(str(score))
+print(score)

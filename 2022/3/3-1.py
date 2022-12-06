@@ -42,5 +42,4 @@ for line in data.splitlines():
   same = findSame(a,b)
   totalPriority += priority(same)
 
-with open("3/output.txt","w") as f:
-  f.write(str(totalPriority))
+print(totalPriority)
